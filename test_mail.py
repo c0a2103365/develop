@@ -17,7 +17,7 @@ server.starttls()
 # SMTPサーバーにログイン
 login_address = "自分のメアド"
 ## 自分のメールアドレスのパスワードだとエラーが発生する。2行目のコメントを参考
-login_password = "juddblthwcffjnwg"
+login_password = "XXXXXX"
 server.login(login_address, login_password)
 
 # メールの作成
