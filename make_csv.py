@@ -4,7 +4,8 @@ import csv
 
 file_name=r"student_data.csv"
 
-csv_list=[["学籍番号","名字","名前","欠席理由"]]
+#csv_list=[["学籍番号","名字","名前","欠席理由"]]
+csv_list=[["学籍番号","名字","名前","受付時間"]]
 
 with open(file_name,"w",encoding="utf-8") as obj:
     writer = csv.writer(obj, lineterminator="\n")
